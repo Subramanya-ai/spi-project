@@ -1,0 +1,42 @@
+# Reading C:/Modeltech_5.5a/win32/../tcl/vsim/pref.tcl 
+# do spi_tb.fdo 
+# Model Technology ModelSim SE vlog 5.5a Compiler 2001.04 Apr  5 2001
+# -- Compiling module spi_master
+# Top level modules:
+# 	spi_master
+# Model Technology ModelSim SE vlog 5.5a Compiler 2001.04 Apr  5 2001
+# -- Compiling module spi_tb
+# Top level modules:
+# 	spi_tb
+# Model Technology ModelSim SE vlog 5.5a Compiler 2001.04 Apr  5 2001
+# -- Compiling module glbl
+# Top level modules:
+# 	glbl
+# vsim -lib work -t 1ps -L xilinxcorelib_ver -L unisims_ver spi_tb glbl 
+# Loading work.spi_tb
+# ERROR: Could not open library xilinxcorelib_ver at xilinxcorelib_ver: No such file or directory
+# ERROR: Could not open library unisims_ver at unisims_ver: No such file or directory
+# Loading work.spi_master
+# Loading work.glbl
+# .wave
+# .structure
+# .signals
+# t=0 rst=1 start=0 data=10101010 mosi=0 sclk=0 cs=1 done=0
+# t=20000 rst=0 start=0 data=10101010 mosi=0 sclk=0 cs=1 done=0
+# t=40000 rst=0 start=1 data=10101010 mosi=0 sclk=0 cs=1 done=0
+# t=45000 rst=0 start=1 data=10101010 mosi=0 sclk=0 cs=0 done=0
+# t=50000 rst=0 start=0 data=10101010 mosi=0 sclk=0 cs=0 done=0
+# t=95000 rst=0 start=0 data=10101010 mosi=1 sclk=1 cs=0 done=0
+# t=145000 rst=0 start=0 data=10101010 mosi=1 sclk=0 cs=0 done=0
+# t=195000 rst=0 start=0 data=10101010 mosi=0 sclk=1 cs=0 done=0
+# t=245000 rst=0 start=0 data=10101010 mosi=0 sclk=0 cs=0 done=0
+# t=295000 rst=0 start=0 data=10101010 mosi=1 sclk=1 cs=0 done=0
+# t=345000 rst=0 start=0 data=10101010 mosi=1 sclk=0 cs=0 done=0
+# t=395000 rst=0 start=0 data=10101010 mosi=0 sclk=1 cs=0 done=0
+# t=445000 rst=0 start=0 data=10101010 mosi=0 sclk=0 cs=0 done=0
+# t=495000 rst=0 start=0 data=10101010 mosi=1 sclk=1 cs=0 done=0
+# t=545000 rst=0 start=0 data=10101010 mosi=1 sclk=0 cs=0 done=0
+# Break at spi_master_tb.v line 64
+# Simulation Breakpoint: Break at spi_master_tb.v line 64
+# MACRO ./spi_tb.fdo PAUSED at line 14
+destroy .wave
