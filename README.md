@@ -1,31 +1,40 @@
 # SPI Master Design (Verilog)
 
 ## Objective
-To design and implement a basic SPI Master and verify it through simulation and FPGA implementation.
+
+To design and verify a basic SPI master using Verilog and demonstrate the complete digital design flow.
 
 ## Tools Used
-- ModelSim SE 5.5a (Simulation)
-- Xilinx ISE 7.1i (Synthesis, Place & Route)
+
+* ModelSim (Simulation)
+* Xilinx ISE (Synthesis & Implementation)
+* OpenLane (RTL-to-GDS flow demonstration)
 
 ## Project Structure
-- rtl/ → Verilog design (spi_master.v)
-- tb/ → Testbench (spi_master_tb.v)
-- sim/ → Simulation logs and waveform
-- ise/ → FPGA outputs and reports
-- screenshots/ → Waveform images
-- docs/ → Results summary
+
+* rtl/ → Verilog design files
+* tb/ → Testbench
+* sim/ → Simulation outputs
+* ise/ → Synthesis and implementation reports
+* screenshots/ → Simulation and RTL-to-GDS flow snapshots
+* openlane/ → Outputs and reports from RTL-to-GDS flow
 
 ## Flow
-1. Designed SPI Master in Verilog RTL
-2. Simulated using ModelSim
-3. Verified waveform (MOSI, SCLK, CS, DONE)
-4. Synthesized using Xilinx ISE
-5. Completed Place and Route (PnR)
-6. Generated programming file (.bit)
+
+1. Designed SPI master in Verilog RTL
+2. Simulated functionality using ModelSim
+3. Verified waveform outputs
+4. Synthesized and implemented using Xilinx ISE
+5. Generated programming file (.bit)
+6. Demonstrated RTL-to-GDS flow using OpenLane
 
 ## Results
-- Successful 8-bit SPI transmission
-- No synthesis or implementation errors
-- Timing achieved ~157 MHz
-- Programming file generated successfully
 
+* Successful SPI data transmission verified
+* Correct waveform behavior observed
+* Synthesis and implementation completed
+* RTL-to-GDS flow successfully demonstrated
+
+## Note
+
+RTL-to-GDS flow is demonstrated using an OpenLane reference design. The same flow is applicable to the SPI master design.
