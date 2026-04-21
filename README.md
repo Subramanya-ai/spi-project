@@ -29,5 +29,3 @@ To design and implement a basic SPI Master and verify it through simulation and 
 - Timing achieved ~157 MHz
 - Programming file generated successfully
 
-## Additional Work
-RTL-to-GDS flow explored using OpenLane with Sky130 PDK.
